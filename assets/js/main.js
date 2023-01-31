@@ -149,7 +149,6 @@ window.addEventListener('scroll', scrollHeader)
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
-const blackLogo = src = 'assets/img/myLogo-black.svg'
 
 
 // Previously selected topic (if user selected)
@@ -176,6 +175,5 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
-function myFunction() {
-    document.getElementById("my-logo").src = "assets/img/myLogo.svg";
-  }
+
+
