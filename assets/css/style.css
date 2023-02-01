@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --gradient-color:hsl(240, 22%, 85%);
+    --gradient-color:hsl(230, 53%, 97%);
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
@@ -223,9 +223,9 @@ b{
 @media screen and (max-width: 767px) {
     .nav__menu{
         position: fixed;
-        height: 100vh;
-        top: -100%;
-        left: 0;
+        height: 100%;
+        top: 0%;
+        right: -100%;
         width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
@@ -233,16 +233,19 @@ b{
         transition: .7s ease;
         transition-delay: 0ms;
     }
+    .nav__item a{
+      font-size: 18px;
+    }
 }
 
 .nav__list{
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .nav__link{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -257,9 +260,6 @@ b{
 }
 
 .nav__close{
-    position: absolute;
-    right: 48%;
-    bottom: 10rem;
     font-size: 2rem;
     cursor: pointer;
     color: var(--first-color);
@@ -271,7 +271,7 @@ b{
 
 /* show menu */
 .show-menu{
-    top: 0;
+    right: 0;
 }
 /* Active link */
 .active-link{
@@ -451,6 +451,11 @@ b{
   align-items: center;
 }
 
+.about__socmed{
+  display: block;
+  font-size: var(--small-font-size);
+  text-align: center;
+}
 .about__social{
   font-size: 2rem;
   color: var(--first-color);
@@ -570,7 +575,7 @@ b{
 }
 
 .skills__git{
-  width: 50%;
+  width: 40%;
 }
 
 .skills__close .skills__list{
@@ -881,6 +886,9 @@ b{
   outline: none;
   padding: .25rem .5rem .5rem 0;
 }
+.contact__message{
+  font-size: 10px;
+}
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem;
@@ -1111,5 +1119,8 @@ b{
   }
   .contact__form{
     width: 460px;
+  }
+  .contact__list{
+    margin-top: 4rem;
   }
 }
