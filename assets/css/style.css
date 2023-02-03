@@ -1123,4 +1123,7 @@ b{
   .contact__list{
     margin-top: 4rem;
   }
+  .soft__skills{
+    grid-template-columns: repeat(3,1fr);
+  }
 }
