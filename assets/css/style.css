@@ -314,7 +314,7 @@ b{
 }
 
 .home__blob-img{
-    width: 450px;
+    width: 200px;
 }
 
 .home__data{
@@ -372,11 +372,13 @@ b{
   display:inline-block;
   background-color: transparent;
   color: var(--first-color);
-  width: 12rem;
+  width: 10rem;
+  height: 3rem;
   padding: 1rem;
   border: 3px solid var(--first-color);
   border-radius: .5rem;
   font-weight: var(--font-semi-bold);
+  font-size: var(--small-font-size);
 }
 
 .button:hover{
@@ -555,7 +557,7 @@ b{
 }
 
 .skills__mysql{
-  width: 50%;
+  width: 40%;
 }
 
 .skills__php{
@@ -888,6 +890,9 @@ b{
 }
 .contact__message{
   font-size: 10px;
+}
+.contact__button{
+  width: 11rem;
 }
 /*==================== FOOTER ====================*/
 .footer{
