@@ -60,4 +60,7 @@ particleground(document.getElementById('particles-background'), {
     setTimeout(function() {
       document.getElementById("my-logo").style.opacity = "0";    
     }, 4000);
+        setTimeout(function() {
+      window.location.href = "#home";
+    }, 3700);
   });
