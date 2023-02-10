@@ -374,12 +374,12 @@ b{
 .button{
   display:inline-block;
   background-color: transparent;
-  color: var(--first-color);
+  color: var(--text-color);
   width: 10rem;
   height: 3rem;
   padding: 1rem;
-  border: 3px solid var(--first-color);
-  border-radius: .5rem;
+  border: 2px solid var(--first-color);
+  border-radius: 5px;
   font-weight: var(--font-semi-bold);
   font-size: var(--small-font-size);
 }
@@ -417,6 +417,7 @@ b{
   color: var(--first-color-alt);
 }
 /*==================== ABOUT ====================*/
+
 .about__img{
   width: 200px;
   border-radius: .5rem;
