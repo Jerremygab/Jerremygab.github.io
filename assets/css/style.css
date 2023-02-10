@@ -232,6 +232,7 @@ b{
         box-shadow: 0 -1px 4px rgba(0,0,0,.15);
         transition: .7s ease;
         transition-delay: 0ms;
+        overflow-y: scroll;
     }
     .nav__item a{
       font-size: 18px;
@@ -240,12 +241,14 @@ b{
 
 .nav__list{
     gap: 3rem;
+    margin: 5rem;
 }
 
 .nav__link{
     display: flex;
     flex-direction: column;
     align-items:center;
+    justify-content: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
@@ -545,7 +548,7 @@ b{
 }
 
 .skills__js{
-  width: 30%;
+  width: 40%;
 }
 
 .skills__xml{
@@ -553,7 +556,7 @@ b{
 }
 
 .skills__net{
-  width: 70%;
+  width: 60%;
 }
 
 .skills__mysql{
@@ -561,7 +564,7 @@ b{
 }
 
 .skills__php{
-  width: 30%;
+  width: 40%;
 }
 
 .skills__figma{
@@ -577,7 +580,7 @@ b{
 }
 
 .skills__git{
-  width: 40%;
+  width: 50%;
 }
 
 .skills__close .skills__list{
