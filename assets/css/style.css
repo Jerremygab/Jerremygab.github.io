@@ -4,10 +4,9 @@
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
-
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 260; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -260,7 +259,7 @@ b{
     justify-content: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
 }
 
 .nav__link:hover{
@@ -642,7 +641,6 @@ b{
 .qualification__subtitle{
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
 }
 
 .qualification__calendar{
@@ -1113,7 +1111,6 @@ b{
   .qualification__sections, 
   .about__container,
   .skills__container,
-  .services__container,
   .contact__container{
     grid-template-columns: 1fr;
   }
@@ -1129,10 +1126,9 @@ b{
   .swiper-button-prev{
     left:-3.5rem;
   }
+  .contact__inputs,
+  .services__container,
   .contact__container{
-    grid-template-columns: repeat(2,1fr);
-  }
-  .contact__inputs{
     grid-template-columns: repeat(2,1fr);
   }
   .contact__form{
