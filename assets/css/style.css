@@ -549,15 +549,15 @@ b{
 }
 
 .skills__html{
-  width: 80%;
+  width: 85%;
 }
 
 .skills__css{
-  width: 70%;
+  width: 85%;
 }
 
 .skills__js{
-  width: 40%;
+  width: 60%;
 }
 
 .skills__xml{
@@ -565,15 +565,15 @@ b{
 }
 
 .skills__net{
-  width: 60%;
+  width: 40%;
 }
 
 .skills__mysql{
-  width: 40%;
+  width: 60%;
 }
 
 .skills__php{
-  width: 40%;
+  width: 65%;
 }
 
 .skills__figma{
@@ -589,7 +589,7 @@ b{
 }
 
 .skills__git{
-  width: 50%;
+  width: 60%;
 }
 
 .skills__close .skills__list{
