@@ -1129,7 +1129,7 @@ b{
   .contact__inputs,
   .services__container,
   .contact__container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
   }
   .contact__form{
     width: 460px;
