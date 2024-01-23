@@ -1007,18 +1007,17 @@ b{
   .qualification__sections, 
   .about__container,
   .skills__container,
-  .services__container,
   .contact__container{
     display: grid;
     grid-template-columns: .6fr;
     justify-content: center;
   }
+  .services__container,
   .portfolio__content{
+    display: grid;
     grid-template-columns: repeat(2,1fr);
   }
-  .services__container{
-  width: 10rem;
-  }
+ 
 }
 @media screen and (min-width: 780px) {
   .container{
@@ -1083,7 +1082,8 @@ b{
     text-align: initial;
   }
   .services__container{
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
   .service__icon{
     font-size: 2rem;
