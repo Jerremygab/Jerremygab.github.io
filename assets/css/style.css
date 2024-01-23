@@ -560,8 +560,8 @@ b{
   width: 60%;
 }
 
-.skills__xml{
-  width: 80%;
+.skills__c{
+  width: 40%;
 }
 
 .skills__net{
@@ -571,13 +571,16 @@ b{
 .skills__mysql{
   width: 60%;
 }
+.skills__mssql{
+  width: 75%;
+}
 
 .skills__php{
-  width: 65%;
+  width: 75%;
 }
 
 .skills__figma{
-  width: 40%;
+  width: 60%;
 }
 
 .skills__framer{

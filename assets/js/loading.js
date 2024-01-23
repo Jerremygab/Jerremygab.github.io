@@ -38,29 +38,29 @@ particleground(document.getElementById('particles-background'), {
   window.addEventListener("load", function() {
     setTimeout(function() {
         document.getElementById("loading-screen").style.zIndex = "-1";      
-    }, 4000);
+    }, 3500);
     setTimeout(function() {
       document.getElementById("two").style.opacity = "0";    
     }, 500);
     setTimeout(function() {
       document.getElementById("one").style.opacity = "0";    
-    }, 1200);
+    }, 1000);
     setTimeout(function() {
       document.getElementById("four").style.opacity = "1";    
-    }, 1900);
+    }, 1500);
     setTimeout(function() {
       document.getElementById("three").style.opacity = "1";    
-    }, 2600);
+    }, 2000);
     setTimeout(function() {
       document.getElementById("four").style.opacity = "0";    
-    }, 3800);
+    }, 2500);
     setTimeout(function() {
       document.getElementById("three").style.opacity = "0";    
-    }, 3800);
+    }, 3000);
     setTimeout(function() {
       document.getElementById("my-logo").style.opacity = "0";    
-    }, 4000);
+    }, 3500);
         setTimeout(function() {
       window.location.href = "#home";
-    }, 3700);
+    }, 3000);
   });
