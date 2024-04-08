@@ -567,6 +567,9 @@ b{
 .skills__net{
   width: 40%;
 }
+.skills__wp{
+  width: 50%;
+}
 
 .skills__mysql{
   width: 60%;
